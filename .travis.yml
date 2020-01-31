@@ -18,10 +18,10 @@ script:
 deploy:
  provider: pages
  skip-cleanup: true
- github-token: $GITHUB_TOKEN
+ github-token: $Jaws
  keep-history: true
  local-dir: public
- repo: gh-username/gh-username.github.io
+ repo: gh-Jawschamp/gh-Jawschamp.github.io
  target-branch: master
  verbose: true
  on:
